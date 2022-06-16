@@ -1,0 +1,18 @@
+ERROR:root:<class 'Exception'>
+Traceback (most recent call last):
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\main.py", line 34, in <module>
+    vk.messages.send(random_id=get_random_id(), peer_id=peer,
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\bot\command.py", line 21, in __init__
+    command_dict = {"help": {"synonym": ['ןמלמשü', 'help'], 'func': self.help_msg}}
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\bot\command.py", line 72, in start_msg
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\bot\command.py", line 77, in send_message
+AttributeError: 'Command' object has no attribute 'peer'
+ERROR:root:<class 'Exception'>
+Traceback (most recent call last):
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\main.py", line 34, in <module>
+    vk.messages.send(random_id=get_random_id(), peer_id=peer,
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\bot\command.py", line 21, in __init__
+    command_dict = {"help": {"synonym": ['ןמלמשü', 'help'], 'func': self.help_msg}}
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\bot\command.py", line 72, in start_msg
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\bot\command.py", line 77, in send_message
+AttributeError: 'Command' object has no attribute 'peer'

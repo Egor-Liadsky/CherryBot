@@ -1,0 +1,36 @@
+ERROR:root:<class 'Exception'>
+Traceback (most recent call last):
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\main.py", line 29, in <module>
+    vk.send_message(random_id=get_random_id(), peer_id=peer, message='Здарова хохлина')
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 730, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 690, in method
+    raise error
+vk_api.exceptions.ApiError: [3] Unknown method passed
+ERROR:root:<class 'Exception'>
+Traceback (most recent call last):
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\main.py", line 29, in <module>
+    vk.send_message(random_id=get_random_id(), peer_id=peer, message='Здарова хохлина')
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 730, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 690, in method
+    raise error
+vk_api.exceptions.ApiError: [3] Unknown method passed
+ERROR:root:<class 'Exception'>
+Traceback (most recent call last):
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\main.py", line 29, in <module>
+    vk.messages.send(peer_id=peer, message='Здарова хохлина')
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 730, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 690, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: random_id is a required parameter
+ERROR:root:<class 'Exception'>
+Traceback (most recent call last):
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\main.py", line 29, in <module>
+    vk.messages.send(random_id=get_random_id(), message='Здарова хохлина')
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 730, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "C:\Users\igeg9\PycharmProjects\bp_bot\venv\lib\site-packages\vk_api\vk_api.py", line 690, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: you should specify peer_id, user_id, domain, chat_id or user_ids param
